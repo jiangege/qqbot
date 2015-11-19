@@ -3,6 +3,7 @@
 'use strict';
 
 (function() {
+  require("livescript");
   var log = new (require('log'))('debug');
   var auth = require("./src/qqauth-qrcode");
   var api = require("./src/qqapi");
